@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin:0px;
+  padding:0px;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 15px;
+	font-family: "Comic Sans MS", "cursive", "sans-serif";
+	font-size:200%;
+}
+
+/*desktop view */
+@media (min-width: 992px) {
+	.col-lg-1, .col-lg-2, .col-lg-3 {
+		float:left;
+	}
+	.col-lg-1 {
+    	width: 32%;
+  	}
+
+  	.col-lg-2{
+  		width: 32%;
+  	}
+
+  	.col-lg-3{
+  		width: 32%
+  	}
+}
+
+/*tablet view */
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-mg-1, .col-mg-2, .col-mg-3 {
+		float:left;
+	}
+	.col-mg-1 {
+    	width: 32%;
+  	}
+
+  	.col-mg-2{
+  		width: 32%;
+  	}
+
+  	.col-mg-3{
+  		clear:both;
+  		width: 65%
+  	}
+
+ }
+
+/* mobile view*/
+@media (max-width: 767px) {
+	.col-xs-1, .col-xs-2, .col-xs-3 {
+		float:left;
+	}
+	.col-xs-1 {
+		clear:both;
+    	width: 95%;
+  	}
+
+  	.col-xs-2{
+  		clear:both;
+  		width: 95%;
+  	}
+
+  	.col-xs-3{
+  		clear:both;
+  		width: 95%
+  	}
+
+}
+
+div{
+	background-color: grey;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	font-size:85%;
+}
+
+.descriptionDiv1 {
+	background-color: #00FFFF;
+	float:right;
+	width:100px;
+	text-align: center;
+	font-size:140%;
+	padding:10px;
+}
+
+.descriptionDiv2 {
+	background-color: #0078EE;
+	float:right;
+	color:white;
+	width: 100px;
+	text-align: center;
+	font-size:140%;
+	padding:10px;
+}
+
+.descriptionDiv3 {
+	background-color: #00FFBB;
+	float:right;
+	width: 100px;
+	text-align: center;
+	font-size:140%;
+	padding:10px;
+}
+
+.BorderDiv {
+	border:1px solid black;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+.belowdescription {
+	clear:right;
+	padding:10px;
+}
+
