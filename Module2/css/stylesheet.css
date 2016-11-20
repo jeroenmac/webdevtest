@@ -35,16 +35,16 @@ h1{
 		float:left;
 	}
 	.col-mg-1 {
-    	width: 32%;
+    	width: 48%;
   	}
 
   	.col-mg-2{
-  		width: 32%;
+  		width: 48%;
   	}
 
   	.col-mg-3{
   		clear:both;
-  		width: 65%
+  		width: 97%
   	}
 
  }
