@@ -1,0 +1,28 @@
+#header-nav {
+  background-color: #f6b898;
+  border-radius: 0;
+  border: 0;
+}
+
+#nav-list {
+	background-color: #ff876d;
+	margin-left:-15px;
+	margin-bottom:0px;
+	margin-top:0px;
+	border:0;
+}
+
+.menu-description{
+	text-align: center;
+	font-size: 2em;
+	font-style: bold;
+}
+
+.menu-all{
+	background-color: grey;
+	padding: 15px, 15px, 15px, 15px;
+	float: none; 
+	margin: 0 auto;
+	margin-bottom:15px;
+	width:90%;
+}
